@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- The source I used: https://store.steampowered.com/join -->
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="steam">
+                <h1> STEAM</h1>
+            </div>
+            <div class="toplinks">
+                <p>STORE</p>
+                <p>COMMUNITY</p>
+                <p>USER</p>
+                <p>CHAT</p>
+                <p>SUPPORT</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="create">
+                <p>CREATE YOUR ACCOUNT</p>
+            </div>
+            
+            <form action="https://httpbin.org/anything" method="post">
+                <label for="email">Email Address<br></label>
+                <input type="text" id="email" name="email"><br><br>
+
+                <label for="emailcon">Confirm your Address<br></label>
+                <input type="text" id="emailcon" name="emailcon"><br><br>
+
+                <label for="username">Username<br></label>
+                <input type="text" id="username" name="username"><br><br>
+
+                <label for="pwd">Password<br></label>
+                <input type="password" id="pwd" name="pwd"><br><br>
+
+                <fieldset>
+                    <legend>Country of Residence</legend>
+                    <div>  
+                        <input type="radio" id="sweden" name="country" value="sweden">
+                        <label for="sweden">Sweden</label>
+                    </div>
+                    <div>  
+                        <input type="radio" id="america" name="country" value="america">
+                        <label for="america">America</label>
+                    </div>
+                    <div>  
+                        <input type="radio" id="cz" name="country" value="cz">
+                        <label for="cz">Czech Republic</label>
+                    </div>
+                </fieldset>
+
+                <div class="verify">
+                    <label class="ver">
+                        <input type="checkbox">
+                        <label for="verify">I'm not a robot</label>
+                    </label>   
+                </div> 
+                
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            
+            <p>Please read our terms and agreements before clicking Continue.</p>
+            
+            <div class="policy">
+                <label class="pol">
+                    <input type="checkbox">
+                    <label for="policy">I agree to the Terms and Conditions.</label>
+                </label>   
+            </div> 
+
+            <div class="continue">
+                <button type="button">Continue</button>
+            </div>
+            </form>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(57, 57, 57);
+}
+
+input {
+    width: 350px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(64, 64, 64);
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+label {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.topnav {
+    background-color: rgb(36, 36, 36);
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.toplinks {
+    display: grid;
+    justify-content: left;
+    grid-template-columns: 60px 120px 60px 55px 80px;
+    grid-template-rows: 1fr;
+    font-size: 20px;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.steam {
+    display: grid;
+    justify-content: right;
+    margin-right: 160px;
+    font-size: 20px;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 2%;
+}
+
+.create {
+    font-size: 36px;
+}
+fieldset {
+    width: 320px;
+    height: 100px;
+}
+fieldset input {
+    width: 50px;
+    height: 20px;
+}
+
+.verify {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    margin-top: 26px;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    width: 350px;
+    height: 20px;
+}
+
+.verify input {
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.verify label {
+    font-size: 22px;
+}
+
+.submit {
+    margin-top: 26px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.policy input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.policy label {
+    font-size: 16px;
+}
+.continue button {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(50, 108, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80px;
+    cursor: pointer;
+    margin-top: 40px;
+}
